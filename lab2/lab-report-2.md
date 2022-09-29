@@ -3,7 +3,7 @@
 - I did not complete this step because my computer already had VScode installed.
 
 ## Remotely Connecting
-1. Open the terminal in VScode and type in `ssh expan@ieng6.ucsd.edu`. You will replace `expan` with your school username.
+1. Open the terminal in VScode and type in `ssh expan@ieng6.ucsd.edu`. You will replace `expan` with your school username. Note: During this lab I had trouble using the course specific account so I will use expan@ieng6.ucsd.edu for this lab report.
 ![remotely_connecting1](remotely_connecting1.png)
 2. Press enter and you should be logged in. Your screen should look something like this:
 ![remotely_connecting2](remotely_connecting2.png)
@@ -39,7 +39,7 @@ because I already had the SSH key set up previously.
 1. You can experiment with optimizing remote running. The following are examples of what you can do to more efficiently run remote code:
 2. You can put a command in quotes after the ssh command to do that command on the remote server and then logout of the remote server automatically.
 ![ssh_ls](ssh_ls.png)
-3. You can run multiple command on the same line by using `cp` and separating each command with a semicolon. For example: `cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
+3. You can run multiple commands on the same line by using `cp` and separating each command with a semicolon. For example: `cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
 4. You can use the up arrow to go back to your previous commands instead of retyping it.
 
 
