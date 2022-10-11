@@ -1,11 +1,11 @@
 # Lab Report 2
 ## Installing VScode
-- I did not complete this step because my computer already had VScode installed.
-1. To install Visual Studio Code (VScode), go to [https://code.visualstudio.com/](https://code.visualstudio.com/). There, you can find instructions to download it on your computer. Once installed, open VScode and it should look something like this:
+1. I did not complete this step because my computer already had VScode installed.
+2. To install Visual Studio Code (VScode), go to [https://code.visualstudio.com/](https://code.visualstudio.com/). There, you can find instructions to download it on your computer. Once installed, open VScode and it should look something like this:
 ![vscode][vscode.png]
 
 ## Remotely Connecting
-1. Open the terminal in VScode and type in `ssh expan@ieng6.ucsd.edu`. You will replace `expan` with your school username. Note: During this lab I had trouble using the course specific account so I will use expan@ieng6.ucsd.edu for this lab report.
+1. Open the terminal in VScode and type in `ssh expan@ieng6.ucsd.edu`. You will replace `expan` with your school username. Note: During this lab I had trouble using the course specific account so I will use expan@ieng6.ucsd.edu for this lab report. However, you can find your course specific username at 
 ![remotely_connecting1](remotely_connecting1.png)
 2. Press enter and you should be logged in. Your screen should look something like this:
 ![remotely_connecting2](remotely_connecting2.png)
