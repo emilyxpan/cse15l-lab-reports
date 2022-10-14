@@ -61,20 +61,28 @@ class SearchEngine {
 
 ## Part 2
 **averageWithoutLowest Method**
+
 Failure inducing input:
 ![averageTests](averageTests.png)
+
 Symptom (failure inducing output):
 ![averageTestOutputs](averageTestOutputs.png)
+
 The bug (the code fix needed):
 ![averageOriginal](averageOriginal.png)
+
 In the second for loop, if there is another number(s) that is equal to the lowest number, then the method will delete all of them. Therefore, the actual average will be lower than the expected average, which is what happen with the test case above.
 
 **filter Method**
+
 Failure inducing input:
 ![filterTest](filterTest.png)
+
 Symptom (failure inducing output):
 ![filterTestOutput](filterTestOutput.png)
+
 The bug (the code fix needed):
 ![filterOriginal](filterOriginal.png)
+
 The method adds the string that passes the StringChecker to a new list, however it keeps adding each new string to index 0. Therefore, the strings are in the opposite order of how they appeared in the input list.
 
