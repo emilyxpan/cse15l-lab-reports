@@ -60,4 +60,21 @@ class SearchEngine {
 * `URI url` takes in the URL for the web server, which in this case is localhost:4000/search?s=app. A relevant field is the `ArrayList<String> lst`, which is the ArrayList that stores the strings added. The value of this field doesn't change however, because we just iterate through `lst` to return the strings containing the specified substring. 
 
 ## Part 2
+**averageWithoutLowest Method**
+Failure inducing input:
+![averageTests](averageTests.png)
+Symptom (failure inducing output):
+![averageTestOutputs](averageTestOutputs.png)
+The bug (the code fix needed):
+![averageOriginal](averageOriginal.png)
+In the second for loop, if there is another number(s) that is equal to the lowest number, then the method will delete all of them. Therefore, the actual average will be lower than the expected average, which is what happen with the test case above.
+
+**filter Method**
+Failure inducing input:
+![filterTest](filterTest.png)
+Symptom (failure inducing output):
+![filterTestOutput](filterTestOutput.png)
+The bug (the code fix needed):
+![filterOriginal](filterOriginal.png)
+The method adds the string that passes the StringChecker to a new list, however it keeps adding each new string to index 0. Therefore, the strings are in the opposite order of how they appeared in the input list.
 
