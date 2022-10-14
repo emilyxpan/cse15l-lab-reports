@@ -1,4 +1,4 @@
-# Lab Report 2
+# Lab Report 1
 ## Installing VScode
 1. I did not complete this step because my computer already had VScode installed.
 2. To install Visual Studio Code (VScode), go to [https://code.visualstudio.com/](https://code.visualstudio.com/). There, you can find instructions to download it on your computer. Once installed, open VScode and it should look something like this:
