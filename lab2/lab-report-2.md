@@ -45,4 +45,19 @@ class SearchEngine {
 ```
 
 **Adding a new string**
-![]
+![anewstringtoadd](searchEngineAddWrong.png)
+* This calls the method `handleRequest`.
+* `URI url` takes in the URL for the web server, which in this case is localhost:4000/add?s=anewstringtoadd. A relevant field is the `ArrayList<String> lst`, which is an ArrayList that stores the strings added. Before the request is processed, `lst` is empty, but after the request is done processing, `lst` now has one element that stores `anewstringtoadd` as a String.
+
+**Adding another string**
+![apple](searchEngineAddRight.png)
+* This calls the method `handleRequest`.
+* `URI url` takes in the URL for the web server, which in this case is localhost:4000/add?s=apple. A relevant field is the `ArrayList<String> lst`, which is an ArrayList that stores the strings added. Before the request is processed, `lst` has one element `anewstringtoadd`, but after the request is done processing, `lst` has one more element at index 1 that stores `apple` as a String.
+
+**Quering the list of strings and returning a list of strings that have a given substring**
+![searching](SearchEngineQuery.png)
+* This calls the method `handleRequest`.
+* `URI url` takes in the URL for the web server, which in this case is localhost:4000/search?s=app. A relevant field is the `ArrayList<String> lst`, which is the ArrayList that stores the strings added. The value of this field doesn't change however, because we just iterate through `lst` to return the strings containing the specified substring. 
+
+## Part 2
+
