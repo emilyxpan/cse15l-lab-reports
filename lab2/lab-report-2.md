@@ -45,11 +45,13 @@ class SearchEngine {
 ```
 
 **Adding a new string**
+
 ![anewstringtoadd](addedanewstringtoadd.png)
 * This calls the method `handleRequest`.
 * `URI url` takes in the URL for the web server, which in this case is localhost:4000/add?s=anewstringtoadd. A relevant field is the `ArrayList<String> lst`, which is an ArrayList that stores the strings added. Before the request is processed, `lst` is empty, but after the request is done processing, `lst` now has one element that stores `anewstringtoadd` as a String.
 
 **Adding another string**
+
 ![apple](addedapple.png)
 * This calls the method `handleRequest`.
 * `URI url` takes in the URL for the web server, which in this case is localhost:4000/add?s=apple. A relevant field is the `ArrayList<String> lst`, which is an ArrayList that stores the strings added. Before the request is processed, `lst` has one element `anewstringtoadd`, but after the request is done processing, `lst` has one more element at index 1 that stores `apple` as a String.
