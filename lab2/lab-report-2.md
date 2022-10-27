@@ -45,12 +45,12 @@ class SearchEngine {
 ```
 
 **Adding a new string**
-![anewstringtoadd](searchEngineAddWrong.png)
+![anewstringtoadd](addedanewstringtoadd.png)
 * This calls the method `handleRequest`.
 * `URI url` takes in the URL for the web server, which in this case is localhost:4000/add?s=anewstringtoadd. A relevant field is the `ArrayList<String> lst`, which is an ArrayList that stores the strings added. Before the request is processed, `lst` is empty, but after the request is done processing, `lst` now has one element that stores `anewstringtoadd` as a String.
 
 **Adding another string**
-![apple](searchEngineAddRight.png)
+![apple](addedapple.png)
 * This calls the method `handleRequest`.
 * `URI url` takes in the URL for the web server, which in this case is localhost:4000/add?s=apple. A relevant field is the `ArrayList<String> lst`, which is an ArrayList that stores the strings added. Before the request is processed, `lst` has one element `anewstringtoadd`, but after the request is done processing, `lst` has one more element at index 1 that stores `apple` as a String.
 
@@ -71,7 +71,8 @@ Symptom (failure inducing output):
 The bug (the code fix needed):
 ![averageOriginal](averageOriginal.png)
 
-In the second for loop, if there is another number(s) that is equal to the lowest number, then the method will delete all of them. Therefore, the actual average will be lower than the expected average, which is what happen with the test case above.
+In the second for loop, if there is another number(s) that is equal to the lowest number, then the method will delete all of them. Therefore, the actual average will be lower than the expected average, which is what happen with the test case above. We can fix this bug by changing the two for loops to the following:
+![averageFixed](averageFixed.png)
 
 **filter Method**
 
@@ -84,5 +85,6 @@ Symptom (failure inducing output):
 The bug (the code fix needed):
 ![filterOriginal](filterOriginal.png)
 
-The method adds the string that passes the StringChecker to a new list, however it keeps adding each new string to index 0. Therefore, the strings are in the opposite order of how they appeared in the input list.
+The method adds the string that passes the StringChecker to a new list, however it keeps adding each new string to index 0. Therefore, the strings are in the opposite order of how they appeared in the input list. We can fix this bug by changing the body of the for loop to the following:
+![filterFixed](filterFixed.png)
 
