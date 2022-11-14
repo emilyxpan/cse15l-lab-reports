@@ -4,7 +4,6 @@ Task chosen: Changing the name of the start parameter and its uses to base
 
 In normal mode, I typed: 
 1. `:0, 65 s/start/base/g <Enter>` (17 key strokes) - This changes all occurrences of "start" to "base" up to line 65.
-2. `\Server.base
 2. `wq <Enter>` - This saves the changes and exits.
 
 ## Part 2
