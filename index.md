@@ -8,6 +8,8 @@
 
 [Lab Report 4](https://emilyxpan.github.io/cse15l-lab-reports/lab4/lab-report-4.html)
 
+[Lab Report 5](https://emilyxpan.github.io/cse15l-lab-reports/lab4/lab-report-5.html)
+
 hei
 *hei*
 **hei**
