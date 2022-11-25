@@ -37,4 +37,14 @@ else
     echo "Failed!"
 fi
 ```
-## Student Submission 1: 
+## Student Submission 1: https://github.com/ucsd-cse15l-f22/list-methods-lab3
+![lab3](lab3.png)
+
+## Student Submission 2: https://github.com/ucsd-cse15l-f22/list-methods-compile-error
+![compile-error](compile-error.png)
+
+## Student Submission 3: https://github.com/ucsd-cse15l-f22/list-methods-filename
+![filename](filename.png)
+
+## Tracing Student Submission 2
+
