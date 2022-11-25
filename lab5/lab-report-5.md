@@ -42,7 +42,7 @@ fi
 ![lab3](lab3.png)
 
 ## Student Submission 2: https://github.com/ucsd-cse15l-f22/list-methods-compile-error
-![compile-error](compile-error.png)
+![compile-error-fixed](compile-error-fixed.png)
 
 ## Student Submission 3: https://github.com/ucsd-cse15l-f22/list-methods-filename
 ![filename](filename.png)
