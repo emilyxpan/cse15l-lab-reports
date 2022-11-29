@@ -3,9 +3,15 @@
 Task chosen: Changing the name of the start parameter and its uses to base
 
 1. I opened the file through vim by typing `vim DocSearchServer.java`.
-2. 
-2. `:0, 65 s/start/base/g <Enter>` (17 key strokes) - This changes all occurrences of "start" to "base" up to line 65.
-3. `wq <Enter>` - This saves the changes and exits.
+![vim](vim.png)
+2. In normal mode, I type `:0, 65 s/start/base/g <Enter>` (17 key strokes). This changes all occurrences of "start" from line 0 (inclusive) up to line 65 (exclusive) to "base".
+![firstCommand](firstCommand.png)
+3. In the vim editor, we see that the "start" has been changed to "base".
+![vimChange](vimChange.png)
+4. Still in normal mode, I type `:wq <Enter>`. This saves the changes and exits vim.
+![saveAndQuit](saveAndQuit.png)
+5. We can see the changes we made in vim updated in the java file.
+![final](final.png)
 
 ## Part 2
 Performing the task in Part 1 remotely using two methods:
